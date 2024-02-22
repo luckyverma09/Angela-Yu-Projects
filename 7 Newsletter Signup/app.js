@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
 const { stringify } = require("querystring");
-const apiKey = "19c38b4a2f3da92fd4aad9596a611b0f-us21";
-const audId = "f977f93c7f";
+// const apiKey = "19c38b4a2f3da92fd4aad9596a611b0f-us21";
+// const audId = "f977f93c7f";
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
